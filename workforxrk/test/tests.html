@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        a {
+            display: inline-block;
+            width: 10px;
+            height:5px;
+            background: red;
+            line-height: 0;
+            font-size:0;
+            vertical-align: middle;
+            -webkit-transform: rotate(45deg);
+        }
+        a:after {
+            content:'/';
+            display:block;
+            width: 20px;
+            height:5px;
+            background: red;
+            -webkit-transform: rotate(-90deg) translateY(-50%) translateX(50%);
+        }
+    </style>
+</head>
+<body>
+<a>asd</a>
+</body>
+</html>
